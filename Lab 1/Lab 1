@@ -1,0 +1,12 @@
+Distribution Gamma
+
+n=100
+shape=2
+rate=3
+prob=0.001
+
+dgamma= rgamma(n,shape,rate)
+dgamma
+var(dgamma)
+mean(dgamma)
+fitdistr(dgamma,"gamma")
